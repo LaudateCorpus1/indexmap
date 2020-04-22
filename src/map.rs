@@ -279,7 +279,7 @@ where
 /// # Examples
 ///
 /// ```
-/// use indexmap::IndexMap;
+/// use discord_indexmap::IndexMap;
 ///
 /// // count the frequency of each letter in a sentence.
 /// let mut letters = IndexMap::new();

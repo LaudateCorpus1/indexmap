@@ -5,7 +5,7 @@
 /// ## Example
 ///
 /// ```
-/// #[macro_use] extern crate indexmap;
+/// #[macro_use] extern crate discord_indexmap;
 /// # fn main() {
 ///
 /// let map = indexmap!{
@@ -44,7 +44,7 @@ macro_rules! indexmap {
 /// ## Example
 ///
 /// ```
-/// #[macro_use] extern crate indexmap;
+/// #[macro_use] extern crate discord_indexmap;
 /// # fn main() {
 ///
 /// let set = indexset!{

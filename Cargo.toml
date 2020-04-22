@@ -1,24 +1,16 @@
 [package]
-name = "indexmap"
-version = "1.3.2"
+name = "discord-indexmap"
+version = "1.4.0"
 authors = [
 "bluss",
 "Josh Stone <cuviper@gmail.com>"
 ]
-documentation = "https://docs.rs/indexmap/"
-repository = "https://github.com/bluss/indexmap"
+documentation = "https://docs.rs/discord-indexmap/"
+repository = "https://github.com/discord/indexmap"
 license = "Apache-2.0/MIT"
 description = """
-A hash table with consistent order and fast iteration.
-
-The indexmap is a hash table where the iteration order of the key-value
-pairs is independent of the hash values of the keys. It has the usual
-hash table functionality, it preserves insertion order except after
-removals, and it allows lookup of its elements by either hash table key
-or numerical index. A corresponding hash set type is also provided.
-
-This crate was initially published under the name ordermap, but it was renamed to
-indexmap.
+A fork of the popular `indexmap` library that adds a few extra APIs that are yet to be
+upstreamed.
 """
 
 keywords = ["hashmap", "no_std"]

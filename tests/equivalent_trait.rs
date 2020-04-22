@@ -1,7 +1,7 @@
 #[macro_use]
-extern crate indexmap;
+extern crate discord_indexmap;
 
-use indexmap::Equivalent;
+use discord_indexmap::Equivalent;
 
 use std::hash::Hash;
 

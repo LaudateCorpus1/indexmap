@@ -1,5 +1,5 @@
 #[macro_use]
-extern crate indexmap;
+extern crate discord_indexmap;
 extern crate itertools;
 
 #[test]

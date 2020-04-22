@@ -1,4 +1,4 @@
-extern crate indexmap;
+extern crate discord_indexmap;
 extern crate itertools;
 #[macro_use]
 extern crate quickcheck;
@@ -6,7 +6,7 @@ extern crate rand;
 
 extern crate fnv;
 
-use indexmap::IndexMap;
+use discord_indexmap::IndexMap;
 use itertools::Itertools;
 
 use quickcheck::Arbitrary;
@@ -27,7 +27,7 @@ use std::hash::Hash;
 use std::iter::FromIterator;
 use std::ops::Deref;
 
-use indexmap::map::Entry as OEntry;
+use discord_indexmap::map::Entry as OEntry;
 use std::collections::hash_map::Entry as HEntry;
 
 fn set<'a, T: 'a, I>(iter: I) -> HashSet<T>
